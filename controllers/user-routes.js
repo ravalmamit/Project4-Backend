@@ -59,6 +59,7 @@ router.put("/register/update/:id", (req, res) => {
     { _id: id },
     {
       notes: req.body.notes,
+      rating: req.body.rating,
     },
     { new: true }
   )

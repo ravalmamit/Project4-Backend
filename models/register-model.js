@@ -40,6 +40,10 @@ const RegisterSchema = new mongoose.Schema(
       type: String,
       required: false,
     },
+    rating: {
+      type: Number,
+      required: false,
+    },
   },
   { timestamps: true }
 );
